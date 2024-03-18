@@ -1,0 +1,95 @@
+using Leopotam.EcsProto;
+using Leopotam.EcsProto.QoL;
+using Leopotam.EcsProto.Unity;
+using UnityEngine;
+
+sealed class ECSStartup : MonoBehaviour
+{
+    [SerializeField] private EcsGate _ecsGate;
+
+    private ProtoWorld _world;
+    private IProtoSystems _systems;
+
+    private Controls _controls;
+    private GlobalData _global;
+
+
+    private void Awake()
+    {
+        _global = new GlobalData();
+        _controls = new Controls();
+
+        _global.controls = _controls;
+    }
+
+    void Start()
+    {
+
+        MainAspect asp = new MainAspect();
+        
+        _world = new ProtoWorld( asp);
+        _systems = new ProtoSystems(_world);
+        
+        _ecsGate.SetWorld(asp, _global);
+        _global.EcsGate = _ecsGate;
+        
+        _systems
+            // Инъекция в поля систем.
+            .AddModule(new AutoInjectModule())
+
+            // Модуль отладочной интеграции в unity.
+            .AddModule(new UnityModule())
+
+            // Регистрация дополнительных модулей.
+            // .AddModule (new TestModule1 ())
+
+            // Регистрация систем.
+            .AddSystem(new InitAllSystem())
+            .AddSystem(new InputControlSystem())
+            
+                       
+            
+            
+            .AddSystem(new SoundFxSystem())
+            .AddSystem(new OneFrameDelSystem())
+            // .AddSystem (new TestSystem2 ())
+
+            // Регистрация сервисов. ( DI )
+            .AddService(_global)
+            .Init();
+    }
+
+    void Update() => _systems?.Run();
+
+
+    void OnDestroy()
+    {
+        // Очистка систем.
+        _systems?.Destroy();
+        _systems = null;
+
+        // Очистка дополнительных миров.
+
+        // Очистка основного мира.
+        _world?.Destroy();
+        _world = null;
+    }
+
+    private void OnEnable() => _controls.Enable();
+
+    private void OnDisable() => _controls.Disable();
+}
+
+
+public class MainAspect : ProtoAspectInject
+{
+    public readonly ProtoPool<OneFrameComponent> OneFrame;
+    public readonly ProtoPool<SoundFxComponent> SoundFx;
+    public readonly ProtoPool<InputControlComponent> InputControl;
+    
+    
+    
+    
+    
+
+}

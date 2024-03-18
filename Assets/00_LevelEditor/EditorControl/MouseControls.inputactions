@@ -1,0 +1,94 @@
+{
+    "name": "MouseControls",
+    "maps": [
+        {
+            "name": "ActionMap",
+            "id": "1024511f-0be3-4a5c-92c9-480c6bca9799",
+            "actions": [
+                {
+                    "name": "MouseAction",
+                    "type": "Value",
+                    "id": "03de1bd6-3cb0-4ed3-bfcb-5ac4f4e258e4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GridSnap",
+                    "type": "Value",
+                    "id": "a2de4fef-1516-431f-9d54-e1a6f833251e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GridTogle",
+                    "type": "Value",
+                    "id": "96d729b8-2002-4773-abd4-80953ce21b52",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MouseClickL",
+                    "type": "Value",
+                    "id": "7c5be7b2-6df8-472c-9fcb-8b65f91e02b1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6ae3d8eb-f541-45af-a0a3-d0cf1e9c0647",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e6e1845b-6ff3-4352-a941-81a13863c3a8",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GridSnap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "402d6391-2c43-4341-a8bd-01ad370f8103",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GridTogle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83819ef1-3776-4bf2-8865-3e8dc03bcbca",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClickL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
