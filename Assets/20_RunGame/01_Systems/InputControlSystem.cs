@@ -21,12 +21,15 @@ public class InputControlSystem : IProtoRunSystem
 
         if (_move.sqrMagnitude == 0) return ;
 
+        _move.y *= -1;
+        
         _ent=_aspect.World().NewEntity();
         _aspect.OneFrame.Add(_ent);
 
         ref var Inp = ref _aspect.InputControl.Add(_ent);
         Inp.isFire = _fire;
         Inp.MoveVector = _move;
+        
         
     }
 }

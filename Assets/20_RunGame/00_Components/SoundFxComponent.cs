@@ -1,4 +1,4 @@
-public struct SoundFxComponent
+public struct SoundFx
 {
     public SfxEnum SfxClip;
 

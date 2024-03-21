@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd09c2b-424f-4159-9ecf-6d397bd78b7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/IdleStateComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/MoveStateComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EarthQuake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EarthQuake/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_LevelEditor/Editor/CreateAllLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_LevelEditor/Editor/CreateAllLevels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00_LevelEditor/LevelManager/LevelManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_LevelEditor/LevelManager/LevelManagerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/InputControlComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/InputControlComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/OneFrameComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/OneFrameComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/SoundFxComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/SoundFxComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/CreateObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/CreateObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/InitAllSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/InitAllSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/LoadMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/LoadMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/InputControlSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/InputControlSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/OneFrameDelSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/OneFrameDelSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/SoundFxSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/SoundFxSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/ConstScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/ConstScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/GlobalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/GlobalData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/LevelData/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/LevelData/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObject/Character/CharacterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObject/Character/CharacterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugin/vFolders/vFolders Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugin/vFolders/vFolders Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/00.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/00.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/06.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/08.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/19.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/25.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/28.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/29.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/31.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/32.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/33.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/00_LevelEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00_LevelEditor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +73,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/MoveStateComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2dqsUysnZPw3D9Dw7nIOT5Crdyi" />
@@ -25,6 +90,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,10 +133,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1444">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1444" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -86,7 +152,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710746969111</updated>
-      <workItem from="1710746975244" duration="360000" />
+      <workItem from="1710746975244" duration="988000" />
+      <workItem from="1711016179583" duration="12504000" />
     </task>
     <servers />
   </component>

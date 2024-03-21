@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public  class  Const
 {
@@ -9,5 +10,7 @@ public  class  Const
     
     
     public const int MaxLevel = 35;
+    
+    public const  int CharacterSpeed=30;
     
 }

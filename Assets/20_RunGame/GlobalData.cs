@@ -13,7 +13,7 @@ using UnityEngine;
 
         public int CurrentLevel;
         
-        public MapLevel CurMap;
+        public MapLevel Map;
         
         public Dictionary<int, GameObject> AllPrefab;
 
@@ -23,6 +23,7 @@ using UnityEngine;
         public GameObject GroundContainer;
         
         public GameObject CharacterContainer;
+        public GameObject Character;
         public CharacterScript ScharacterScript;
 
 

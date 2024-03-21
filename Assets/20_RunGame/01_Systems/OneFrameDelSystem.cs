@@ -6,7 +6,7 @@ sealed class OneFrameDelSystem : IProtoRunSystem
         [DI] GlobalData _global;
         [DI] private MainAspect _aspect;
         
-        [DI] ProtoIt _filter = new (It.Inc<OneFrameComponent> ());
+        [DI] ProtoIt _filter = new (It.Inc<OneFrame> ());
         
         
        

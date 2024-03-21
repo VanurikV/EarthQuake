@@ -1,4 +1,4 @@
-public struct OneFrameComponent
+public struct OneFrame
 {
     // add your data here.
 }

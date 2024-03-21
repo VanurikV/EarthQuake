@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public struct InputControlComponent
+public struct InputControl
 {
     public float isFire;
     public Vector2 MoveVector;

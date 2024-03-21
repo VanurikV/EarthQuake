@@ -25,6 +25,7 @@ sealed partial class InitAllSystem : IProtoInitSystem
         
         LoadCurMap();
         LoadAllPrefabs();
+        Debug.Log("--Load Data Complite--");
         
         FindContainer();
 

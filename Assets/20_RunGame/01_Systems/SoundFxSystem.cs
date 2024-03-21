@@ -8,7 +8,7 @@ sealed class SoundFxSystem : IProtoRunSystem
     [DI] GlobalData _global;
     [DI] private MainAspect _aspect;
     
-    [DI] ProtoIt _filter = new (It.Inc<SoundFxComponent> ());
+    [DI] ProtoIt _filter = new (It.Inc<SoundFx> ());
         
     
 

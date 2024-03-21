@@ -37,6 +37,13 @@ public class CharacterScript : MonoBehaviour
     }
 
 
+    public void RunAnimation(Vector2Int dir)
+    {
+        if (dir.x>0) RunAnimation(CharacterAnimation.MoveRightAnim);
+        if (dir.x<0) RunAnimation(CharacterAnimation.MoveLeftAnim);
+        if (dir.y>0) RunAnimation(CharacterAnimation.MoveFrontAnim);
+        if (dir.y<0) RunAnimation(CharacterAnimation.MoveBackAnim);
+    }
     
     public void RunAnimation(CharacterAnimation anim)
     {

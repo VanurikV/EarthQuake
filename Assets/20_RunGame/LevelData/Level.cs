@@ -45,7 +45,7 @@ public class MapLevel
 
     public int BackGroundId;
 
-    public Cell[,] Map = new Cell[Const.LevelDx, Const.LevelDy];
+    public Cell[,] Grid = new Cell[Const.LevelDx, Const.LevelDy];
     
     public List<Vector2Int> PropsId = new List<Vector2Int>();
 
@@ -55,10 +55,22 @@ public class MapLevel
         {
             for (int x = 0; x < Const.LevelDx; x++)
             {
-                Map[x, y] = new Cell();
-                Map[x, y].Type = CellType.Empty;
+                Grid[x, y] = new Cell();
+                Grid[x, y].Type = CellType.Empty;
             }
         }
+    }
+
+    public Vector2Int GetCharacter()
+    {
+        for (int y = 0; y < Const.LevelDy; y++)
+        {
+            for (int x = 0; x < Const.LevelDx; x++)
+            {
+                if(Grid[x, y].Type ==CellType.Character) return new Vector2Int(x,y);
+            }
+        }
+        return Vector2Int.zero;
     }
     
     public static CellType GetType(int id)

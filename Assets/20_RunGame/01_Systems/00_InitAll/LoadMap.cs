@@ -11,6 +11,6 @@ sealed partial class InitAllSystem
         string mapPath = _loadPath + _global.CurrentLevel.ToString("D2");
         TextAsset text = Resources.Load<TextAsset>(mapPath);
 
-        _global.CurMap = JsonConvert.DeserializeObject<MapLevel>(text.text);
+        _global.Map = JsonConvert.DeserializeObject<MapLevel>(text.text);
     }
 }

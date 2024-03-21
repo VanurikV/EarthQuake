@@ -56,9 +56,9 @@ public partial class LevelManagerScript : MonoBehaviour
     {
         Debug.Log("Paste Blck" + posX + " " + posY + " " + BlockId);
 
-        CurMap.Map[posX, posY].GameObjectId = BlockId;
+        CurMap.Grid[posX, posY].GameObjectId = BlockId;
 
-        CurMap.Map[posX, posY].Type = MapLevel.GetType(BlockId);
+        CurMap.Grid[posX, posY].Type = MapLevel.GetType(BlockId);
 
         o = Instantiate(AllPrefab[BlockId], GroundContainer.transform);
         o.name = posX.ToString("D2") + "_" + posY.ToString("D2") + "_" + o.name;
@@ -74,17 +74,17 @@ public partial class LevelManagerScript : MonoBehaviour
         {
             for (int x = 0; x < Const.LevelDx; x++)
             {
-                if (CurMap.Map[x, y].GameObjectId == 0) continue;
+                if (CurMap.Grid[x, y].GameObjectId == 0) continue;
 
 
-                switch (CurMap.Map[x, y].GameObjectId)
+                switch (CurMap.Grid[x, y].GameObjectId)
                 {
                     case 0501:
                     case 0502:
-                        o = Instantiate(AllPrefab[CurMap.Map[x, y].GameObjectId], StoneBlockContainer.transform);
+                        o = Instantiate(AllPrefab[CurMap.Grid[x, y].GameObjectId], StoneBlockContainer.transform);
                         break;
                     default:
-                        o = Instantiate(AllPrefab[CurMap.Map[x, y].GameObjectId], GroundContainer.transform);
+                        o = Instantiate(AllPrefab[CurMap.Grid[x, y].GameObjectId], GroundContainer.transform);
                         break;
                 }
 

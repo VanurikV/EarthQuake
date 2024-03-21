@@ -47,6 +47,10 @@ sealed class ECSStartup : MonoBehaviour
             .AddSystem(new InitAllSystem())
             .AddSystem(new InputControlSystem())
             
+            
+            .AddSystem(new BehaviourSystem())
+            .AddSystem(new MoveSystem())
+            
                        
             
             
@@ -83,9 +87,13 @@ sealed class ECSStartup : MonoBehaviour
 
 public class MainAspect : ProtoAspectInject
 {
-    public readonly ProtoPool<OneFrameComponent> OneFrame;
-    public readonly ProtoPool<SoundFxComponent> SoundFx;
-    public readonly ProtoPool<InputControlComponent> InputControl;
+    public readonly ProtoPool<OneFrame> OneFrame;
+    public readonly ProtoPool<SoundFx> SoundFx;
+    public readonly ProtoPool<InputControl> InputControl;
+    public readonly ProtoPool<Caharacter> Character;
+    public readonly ProtoPool<IdleState> IdleState;
+    public readonly ProtoPool<MoveState> MoveState;
+    
     
     
     
