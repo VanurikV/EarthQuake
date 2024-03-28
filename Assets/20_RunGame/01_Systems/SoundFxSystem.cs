@@ -14,10 +14,11 @@ sealed class SoundFxSystem : IProtoRunSystem
 
     public void Run()
     {
-        foreach (var i in _filter)
+        foreach (var fxEnt in _filter)
         {
-            ref var sfx = ref _aspect.SoundFx.Get(i);
+            ref var sfx = ref _aspect.SoundFx.Get(fxEnt);
             _global.SoundManager.PlaySfx(sfx.SfxClip);
+            _aspect.World().DelEntity(fxEnt);
         }
     }
 }

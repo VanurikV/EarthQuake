@@ -1,0 +1,24 @@
+https://www.boulder-dash.nl/index.html
+
+http://www.bd-fans.com/
+
+http://www.bd-fans.com/BoulderDash.html#Levels
+
+
+http://www.elmerproductions.com/sp/peterb/BDCFF/
+video 16x11   
+
+21x10  -1 GUI  1280x720   x64      1.77777
+20x10  -1 GUI  1920x1080  x96
+
+map 40x22                           1.81
+    30x20                           1.5
+    30x25	                              
+    35x25	2240 x	1600    1120x1600
+
+
+
+
+https://opengameart.org/content/various-gem-stone-animations
+https://opengameart.org/static/lpc-style-guide/styleguide.html
+https://lpc.opengameart.org/static/LPC-Style-Guide/build/styleguide.html

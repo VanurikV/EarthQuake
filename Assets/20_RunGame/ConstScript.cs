@@ -11,6 +11,6 @@ public  class  Const
     
     public const int MaxLevel = 35;
     
-    public const  int CharacterSpeed=30;
+    public const  int CharacterSpeed=90;
     
 }

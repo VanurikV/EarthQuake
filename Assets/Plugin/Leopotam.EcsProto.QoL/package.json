@@ -4,7 +4,7 @@
     "displayName": "LeoECS Proto QoL",
     "description": "LeoECS Proto QoL - набор расширений для LeoECS Proto, призванных улучшить \"качество жизни\" (Quality of Life) разработчика.",
     "unity": "2021.3",
-    "version": "2024.3.5",
+    "version": "2024.3.16",
     "keywords": [
         "leoecs",
         "proto",

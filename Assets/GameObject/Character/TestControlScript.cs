@@ -23,12 +23,7 @@ public class TestControlScript : MonoBehaviour
         
         transform.localPosition += move* Speed * Time.deltaTime;
 
-        if(Mathf.Round(move.x)==1)characterScript.RunAnimation(CharacterAnimation.MoveRightAnim);
-        if(Mathf.Round(move.x)==-1)characterScript.RunAnimation(CharacterAnimation.MoveLeftAnim);
-        if(Mathf.Round(move.y)==-1)characterScript.RunAnimation(CharacterAnimation.MoveFrontAnim);
-        if(Mathf.Round(move.y)==1)characterScript.RunAnimation(CharacterAnimation.MoveBackAnim);
         
-        if(move.x+move.y==0) characterScript.RunAnimation(CharacterAnimation.IdleFrontAnim);
         
         
         

@@ -7,14 +7,15 @@ public class CharacterScript : MonoBehaviour
 {
     private Dictionary<int, int> _animState;
 
-    public Animator _animator;
+    private Animator _animator;
 
     private EcsGate _ecsGate;
-    
+    private AudioSource _footStepFx;
     private void Awake()
     {
         //_animator.GetComponent<Animator>(); NOT WORK
         _animator = GetComponent("Animator")as Animator ;
+        _footStepFx = GetComponent<AudioSource>();
         
         _animState = new Dictionary<int, int>();
         _animState.Add((int)CharacterAnimation.IdleFrontAnim, Animator.StringToHash("IdleFrontAnim"));
@@ -39,15 +40,29 @@ public class CharacterScript : MonoBehaviour
 
     public void RunAnimation(Vector2Int dir)
     {
-        if (dir.x>0) RunAnimation(CharacterAnimation.MoveRightAnim);
-        if (dir.x<0) RunAnimation(CharacterAnimation.MoveLeftAnim);
-        if (dir.y>0) RunAnimation(CharacterAnimation.MoveFrontAnim);
-        if (dir.y<0) RunAnimation(CharacterAnimation.MoveBackAnim);
+        if (dir.x > 0) RunAnimation(CharacterAnimation.MoveRightAnim);
+        if (dir.x < 0) RunAnimation(CharacterAnimation.MoveLeftAnim);
+        if (dir.y > 0) RunAnimation(CharacterAnimation.MoveFrontAnim);
+        if (dir.y < 0) RunAnimation(CharacterAnimation.MoveBackAnim);
     }
     
     public void RunAnimation(CharacterAnimation anim)
     {
-        _animator.CrossFade(_animState[(int)anim], 0);
+        
+        _animator.Play(_animState[(int)anim]);
+        
+        if (anim == CharacterAnimation.IdleFrontAnim)
+        {
+            _footStepFx.Stop();
+        }
+        else
+        {
+            if(_footStepFx.isPlaying) return;
+            _footStepFx.Play();            
+        }
+        
+        
+        
     }
 
     public void Climb(Vector2 dir)

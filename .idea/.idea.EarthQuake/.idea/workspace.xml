@@ -5,66 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd09c2b-424f-4159-9ecf-6d397bd78b7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/IdleStateComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/MoveStateComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/VoidStateComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/VoidStateComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/RemoveGrassComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/RemoveGrassComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/RemoveGrassSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueSpritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueSpritesheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueSpritesheet_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamBlue/BlueSpritesheet_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenSpritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenSpritesheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenSpritesheet_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamGreen/GreenSpritesheet_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkSpritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkSpritesheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkSpritesheet_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamPink/PinkSpritesheet_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedSpritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedSpritesheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedSpritesheet_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamRed/RedSpritesheet_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteSpritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteSpritesheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteSpritesheet_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamWhite/WhiteSpritesheet_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GameObject/Diamond/DiamondScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/0300_Diamond/0305_DiamPink.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/0300_Diamond/0305_DiamPink.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_blue.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_green.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_pink.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_pink.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_red.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_red.blend1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_white.blend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gem/dia_white.blend1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EarthQuake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EarthQuake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00_LevelEditor/Editor/CreateAllLevels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_LevelEditor/Editor/CreateAllLevels.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00_LevelEditor/LevelManager/LevelManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00_LevelEditor/LevelManager/LevelManagerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/InputControlComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/InputControlComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/OneFrameComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/OneFrameComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/SoundFxComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/00_Components/SoundFxComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/CreateObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/CreateObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/InitAllSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/InitAllSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/LoadMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/00_InitAll/LoadMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/InputControlSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/InputControlSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/OneFrameDelSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/OneFrameDelSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/SoundFxSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/01_Systems/SoundFxSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/ConstScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/ConstScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/GlobalData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/GlobalData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20_RunGame/LevelData/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/20_RunGame/LevelData/Level.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameObject/Character/CharacterScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObject/Character/CharacterScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameObject/Character/TestControlScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObject/Character/TestControlScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/src/its.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugin/Leopotam.EcsProto.QoL/src/its.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugin/vFolders/vFolders Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugin/vFolders/vFolders Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/IndexPrefab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/IndexPrefab.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/00.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/00.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/03.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/04.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/06.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/08.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/09.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/13.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/15.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/17.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/22.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/22.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/24.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/27.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/28.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/28.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/29.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/30.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/31.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/32.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/32.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/33.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LevelMaps/34.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LevelMaps/34.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/0800_Character/0801_Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/0800_Character/0801_Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/00_LevelEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/00_LevelEditor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,37 +82,48 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/00_Components/CharacterState/MoveStateComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/00_Components/RemoveGrassComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/01_Systems/BehaviourSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/01_Systems/MoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/01_Systems/RemoveGrassSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/20_RunGame/ECS_Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameObject/Diamond/DiamondScript.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dqsUysnZPw3D9Dw7nIOT5Crdyi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Ivan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Ivan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Ivan\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Ivan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Ivan\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Ivan\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Unity\Editor\2022.3.20f1\Editor\Unity.exe" />
@@ -133,10 +151,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1444">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="1444" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -154,6 +172,11 @@
       <updated>1710746969111</updated>
       <workItem from="1710746975244" duration="988000" />
       <workItem from="1711016179583" duration="12504000" />
+      <workItem from="1711094864052" duration="3387000" />
+      <workItem from="1711349331740" duration="10761000" />
+      <workItem from="1711432708341" duration="6630000" />
+      <workItem from="1711526971643" duration="1155000" />
+      <workItem from="1711614046253" duration="3885000" />
     </task>
     <servers />
   </component>
@@ -163,6 +186,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

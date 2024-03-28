@@ -48,7 +48,7 @@ sealed partial class InitAllSystem
                         character.Character = _global.Character;
                         character.Script= _global.ScharacterScript;
 
-                        _aspect.IdleState.Add(_aspect.World().NewEntity());
+                        _aspect.VoidState.Add(_aspect.World().NewEntity());
 
                         o = GameObject.Instantiate(_global.AllPrefab[0901], _global.GroundContainer.transform);
                         o.GetComponent<WarpInScript>().SetGate(_global.EcsGate); 

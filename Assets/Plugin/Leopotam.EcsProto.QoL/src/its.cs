@@ -125,6 +125,16 @@ namespace Leopotam.EcsProto.QoL {
         }
 
         [MethodImpl (MethodImplOptions.AggressiveInlining)]
+        public static (ProtoEntity Entity, bool Ok) First (this IProtoIt it) {
+            for (it.Begin (); it.Next ();) {
+                var e = it.Entity ();
+                it.End ();
+                return (e, true);
+            }
+            return (default, false);
+        }
+
+        [MethodImpl (MethodImplOptions.AggressiveInlining)]
         public static ItEnumerator GetEnumerator (this ProtoIt it) {
             return new ItEnumerator (it);
         }

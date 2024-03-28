@@ -50,6 +50,7 @@ sealed class ECSStartup : MonoBehaviour
             
             .AddSystem(new BehaviourSystem())
             .AddSystem(new MoveSystem())
+            .AddSystem(new RemoveGrassSystem())
             
                        
             
@@ -93,6 +94,8 @@ public class MainAspect : ProtoAspectInject
     public readonly ProtoPool<Caharacter> Character;
     public readonly ProtoPool<IdleState> IdleState;
     public readonly ProtoPool<MoveState> MoveState;
+    public readonly ProtoPool<VoidState> VoidState; 
+    public readonly ProtoPool<RemoveGrass> RemoveGrass;
     
     
     
