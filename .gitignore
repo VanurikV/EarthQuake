@@ -1,0 +1,38 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+Obj/
+Build/
+Logs/
+Assets/Plugin/Leopotam.EcsProto/*
+Assets/Plugin/Leopotam.EcsProto.QoL/*
+Assets/Plugin/Leopotam.EcsProto.Unity/*
+!Assets/Plugin/Leopotam.EcsProto/README.md
+!Assets/Plugin/Leopotam.EcsProto.QoL/README.md
+!Assets/Plugin/Leopotam.EcsProto.Unity/README.md
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

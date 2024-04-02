@@ -1,0 +1,161 @@
+NInfinite Lives
+Z 8 35344 0 0
+NInfinite Energy
+Z 8 34535 201 0
+NInfinite Rev Gs
+Z 8 42967 0 0
+NSafe Falling
+Z 8 35001 24 0
+NInfinite Maps
+Z 8 60070 0 0
+NUnlimited time
+Z 8 34526 201 58
+NCollect fire like earth
+Z 8 39622 0 255
+NImmune to falling objects
+Z 8 37295 0 255
+Y
+
+
+EARTH SHAKER
+
+Michael Batty
+
+COMPLETE GAME
+
+A rather talented Spec-chum called Michael Batty sent us this
+one. It's in the style of Boulderdash and Repton, and sees you as a
+small robot-type thingie scuttling around an underground land of manic
+mayhem. Your job is to collect all the on-screen diamonds, digging
+your way through the soil and dodging the stones and stuff that get
+dislodged and drop on your head (or not as the case may be). There are
+trillions of other features (see box-off) and with 32 fun-packed
+levels you won't be finishing it too quickly, that's as damn sure as
+mustard!
+
+------------------------------------------------------------------------
+
+DIGGIN' DEEP!
+
+Here are all the different things you find in Earth Shaker, with a
+brief description of what they do...
+
+Back Door		Go out of here once all your crystals are
+			collected
+Rocks			Avoid these landing on your head
+Walls			Impenetrable
+Earth			Holds things up. Remove it and rockfalls will no
+			longer be held up
+Crystal			Collect all the crystals on the screen to open
+			the door
+Jumping Jellybean	Consumption will make you full of beans again
+			(groan!)
+Forcefields		Sap Energy. Disappear when you destroy their
+			monitor
+Monitor			Drop an object on it to stop forcefields
+4D Teleport		Will always displace you to the nearest chamber
+			at the top left of the screen
+Elixir			Potion of youths. Restores life
+Gravity Stick		Lets things get on top of you for a while
+Bubble			Supports things and extinguishes fires
+Fire			Destroys you and makes rocks go to pieces. (Not
+			nice)
+
+NB It will be necessary to catch rocks in later levels. (Work it out
+for yourselves)
+
+------------------------------------------------------------------------
+
+BLIMMIN' BATTY!
+
+Michael Batty's a student at Edinburgh University. He programmed Earth
+Shaker on and off over a couple of years, which may seem like a long
+time to you but take a look at the pics and you'll soon realise why -
+they're stunning! Mind you, we're not the only ones to spot Mr Batty's
+talents - according to latest reports (well, his anyway) he's recently
+been finishing off a game for no less a software house than
+Zeppelin. Posh, eh?
+
+------------------------------------------------------------------------
+
+CONTROLS
+
+Joystick or define your own keys
+
+------------------------------------------------------------------------
+
+(Taken from Your Sinclair, issue 63)
+
+
+
+
+
+
+ЗЕМЛЕШЕЙКЕР
+
+Майкл Бэтти
+
+ПОЛНАЯ ИГРА
+
+Это прислал нам довольно талантливый спец-приятель по имени Майкл Бэтти.
+один. Оно в стиле Боулдердаша и Рептона и рассматривает вас как
+маленькая штуковина типа робота, снующая по подземной земле безумия
+хаос. Ваша задача — собрать все алмазы на экране, копая
+пробирайтесь сквозь почву и уклоняйтесь от камней и прочего, что попадает
+сместится и упадет вам на голову (или нет, в зависимости от обстоятельств). Есть
+триллионы других функций (см. рамку) и 32 увлекательных
+уровни, ты не пройдешь их слишком быстро, это чертовски точно
+горчица!
+
+------------------------------------------------------------------------
+
+КОПАЙТЕ ГЛУБОКО!
+
+Вот все разные вещи, которые вы найдете в Earth Shaker, с
+краткое описание того, что они делают...
+
+Задняя дверь. Уходите отсюда, как только все ваши кристаллы будут собраны.
+			собранный
+Камни Избегайте падения на голову.                                        
+Непроницаемые стены
+Земля удерживает вещи. Уберите его и камнепадов не будет.
+			дольше задерживаться
+Кристалл Соберите все кристаллы на экране, чтобы открыть
+			дверь
+Употребление желе в прыжке снова наполнит вас бобами.
+			(стон!)
+Силовые поля истощают энергию. Исчезни, когда ты уничтожишь их
+			монитор
+Монитор. Бросьте на него объект, чтобы остановить силовые поля.
+4D-телепорт всегда переместит вас в ближайшую комнату.
+			в левом верхнем углу экрана
+Эликсир Зелье молодости. Восстанавливает жизнь
+Гравитационная палка Позволяет вещам на некоторое время воздействовать на вас.
+Пузырь Поддерживает вещи и тушит пожары
+Огонь Уничтожает вас и заставляет камни распадаться на куски. (Нет
+			хороший)
+
+NB. На более поздних уровнях необходимо будет ловить камни. (Проработай это
+для себя)
+
+------------------------------------------------------------------------
+
+БЛИММИН БЭТТИ!
+
+Майкл Бэтти учится в Эдинбургском университете. Он запрограммировал Землю
+Шейкер включается и выключается в течение нескольких лет, что может показаться долгим сроком.
+время вам, но взгляните на фотографии, и вы скоро поймете, почему -
+они потрясающие! Имейте в виду, мы не единственные, кто заметил мистера Бэтти.
+таланты - по последним данным (ну, во всяком случае, его) он недавно
+заканчивал игру для не меньшей компании-разработчика программного обеспечения, чем
+Дирижабль. Шикарно, да?
+
+------------------------------------------------------------------------
+
+УПРАВЛЕНИЕ
+
+Джойстик или определите свои собственные клавиши
+
+------------------------------------------------------------------------
+
+(Взято из журнала «Ваш Синклер», выпуск 63)
