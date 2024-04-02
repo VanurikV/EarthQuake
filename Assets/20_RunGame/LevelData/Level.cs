@@ -61,6 +61,28 @@ public class MapLevel
         }
     }
 
+    public void MapMove(Vector2Int src, Vector2Int dst)
+    {
+        Grid[dst.x, dst.y].GameObjectId = Grid[src.x, src.y].GameObjectId;
+        Grid[dst.x, dst.y].Type = Grid[src.x, src.y].Type;
+        Grid[dst.x, dst.y].GameObject = Grid[src.x, src.y].GameObject;
+        Grid[dst.x, dst.y].GameObjectScript = Grid[src.x, src.y].GameObjectScript;
+
+        Grid[src.x, src.y].GameObjectId = 0;
+        Grid[src.x, src.y].Type = CellType.Empty;
+        Grid[src.x, src.y].GameObject = null;
+        Grid[src.x, src.y].GameObjectScript = null;
+    }
+    
+    public void MapCopy(Vector2Int src, Vector2Int dst)
+    {
+        Grid[dst.x, dst.y].GameObjectId = Grid[src.x, src.y].GameObjectId;
+        Grid[dst.x, dst.y].Type = Grid[src.x, src.y].Type;
+        Grid[dst.x, dst.y].GameObject = Grid[src.x, src.y].GameObject;
+        Grid[dst.x, dst.y].GameObjectScript = Grid[src.x, src.y].GameObjectScript;
+    }
+
+
     public Vector2Int GetCharacter()
     {
         for (int y = 0; y < Const.LevelDy; y++)
