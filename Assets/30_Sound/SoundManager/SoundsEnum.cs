@@ -6,6 +6,8 @@ using UnityEngine;
     public enum SfxEnum
     {
         UI_Click,
+        DiamondFall,
+        RockFall,
         WarpIn,
         GrassFade,
         SciFiDoor,

@@ -29,7 +29,7 @@ using UnityEngine;
 
                  ((IFall)(_global.Map.Grid[pos.x, pos.y].GameObjectScript))?.Fall(true);
                  
-                 
+                 _global.Map.MapCopy( fall.oldpos,fall.newpos);
                  
              }
          }

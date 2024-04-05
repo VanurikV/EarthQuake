@@ -21,7 +21,8 @@ sealed partial class InitAllSystem
                 ref var pos = ref _aspect.Position.Add(diamondEnt);
                 pos.MapPos = new Vector2Int(x, y);
                 pos.GameObject = o;
-                
+
+                o.name = "Dia " + x.ToString("D2") + "__" + y.ToString("D2");
                 
                 _aspect.CanFall.Add(diamondEnt);
                 _aspect.CanGlide.Add(diamondEnt);

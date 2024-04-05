@@ -16,6 +16,7 @@ MonoBehaviour:
     keys:
     - af350332ee952cc4f9ba10f1ead0ff5a
     - 
+    - 2a808fb55052b7a42ae7d88bc4a43535
     values:
     - goDatasByGlobalId:
         keys:
@@ -24,6 +25,7 @@ MonoBehaviour:
         - GlobalObjectId_V1-2-af350332ee952cc4f9ba10f1ead0ff5a-969938447-0
         - GlobalObjectId_V1-2-af350332ee952cc4f9ba10f1ead0ff5a-2000975181-0
         - GlobalObjectId_V1-2-af350332ee952cc4f9ba10f1ead0ff5a-591763419-0
+        - GlobalObjectId_V1-2-af350332ee952cc4f9ba10f1ead0ff5a-1967714820-0
         values:
         - iColor: 0
           icon: BoxCollider Icon
@@ -35,8 +37,10 @@ MonoBehaviour:
           icon: PreMatCube
         - iColor: 1
           icon: 
+        - iColor: 3
+          icon: MeshCollider Icon
       goDatasByInstanceId:
-        keys: 96f2ffff26f4ffff58cbffff24c0ffff82c5ffff
+        keys: 9e740000b47300000c74000088740000d6730000ae7a0000c47900001c7a0000987a0000e6790000288200003e810000968100001282000060810000848500009a840000f28400006e850000bc84000068850000
         values:
         - iColor: 0
           icon: BoxCollider Icon
@@ -48,6 +52,44 @@ MonoBehaviour:
           icon: PreMatCube
         - iColor: 1
           icon: 
+        - iColor: 0
+          icon: BoxCollider Icon
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 1
+          icon: 
+        - iColor: 0
+          icon: BoxCollider Icon
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 1
+          icon: 
+        - iColor: 0
+          icon: BoxCollider Icon
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 0
+          icon: PreMatCube
+        - iColor: 1
+          icon: 
+        - iColor: 3
+          icon: MeshCollider Icon
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []
     - goDatasByGlobalId:
         keys: []
         values: []

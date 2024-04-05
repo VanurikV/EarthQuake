@@ -48,7 +48,19 @@ sealed class ECSStartup : MonoBehaviour
             .AddSystem(new InitAllSystem())
             
             
-            //.AddSystem(new BehaviourSystem())
+            
+            
+            .AddSystem(new CheckFallSystem())
+            .AddSystem(new FallSystem())
+            .AddSystem(new FallStopSystem())
+            .AddSystem(new FallEndSystem())
+            
+            
+            
+            .AddSystem(new CheckGlideSystem())
+            .AddSystem(new IsGlideSystem())
+            
+            
             //.AddSystem(new MoveSystem())
             //.AddSystem(new RemoveGrassSystem())
             
@@ -96,6 +108,10 @@ public class MainAspect : ProtoAspectInject
     public readonly ProtoPool<CanFall> CanFall;
     public readonly ProtoPool<CanGlide> CanGlide;
     
+    public readonly ProtoPool<IsFall>  IsFall;
+    public readonly ProtoPool<IsGlide>  IsGlide;
+    
+    public readonly ProtoPool<FallEnd>  FallEnd;
     
 
 }

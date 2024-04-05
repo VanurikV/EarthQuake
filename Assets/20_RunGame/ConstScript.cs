@@ -12,5 +12,6 @@ public  class  Const
     public const int MaxLevel = 35;
     
     public const  int CharacterSpeed=90;
+    public const  float FallSpeed=90*0.5f;
     
 }

@@ -5,7 +5,7 @@ using Leopotam.EcsProto.QoL;
 using UnityEngine;
 
 
-public class IsFallSystem : IProtoRunSystem
+public class FallSystem : IProtoRunSystem
 {
     [DI] GlobalData _global;
     [DI] private MainAspect _aspect;
@@ -13,13 +13,14 @@ public class IsFallSystem : IProtoRunSystem
     [DI] ProtoIt _filterFall = It.Chain<Position>().Inc<IsFall>().End();
 
 
-    private Vector3 _curPos;
-    private Vector3 _dstPos;
+    
 
     public void Run()
     {
         foreach (var ent in _filterFall)
         {
+            ref var pos = ref _aspect.Position.Get(ent);
+            pos.GameObject.transform.localPosition+=Vector3.down*Time.deltaTime*Const.FallSpeed;
         }
     }
 }
