@@ -60,10 +60,13 @@ public class CharacterScript : MonoBehaviour
             if(_footStepFx.isPlaying) return;
             _footStepFx.Play();            
         }
-        
-        
-        
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("--HIT--  "+other);
+    }
+
 
     public void Climb(Vector2 dir)
     {

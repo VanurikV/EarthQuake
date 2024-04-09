@@ -23,6 +23,10 @@ public class InputControlSystem : IProtoRunSystem
 
         _move.y *= -1;
         
+        //InputNormalize
+        if (_move .x > 0) _move .y = 0;
+        if (_move .x < 0) _move .y = 0;
+        
         _ent=_aspect.World().NewEntity();
         
         ref var Inp = ref _aspect.InputControl.Add(_ent);

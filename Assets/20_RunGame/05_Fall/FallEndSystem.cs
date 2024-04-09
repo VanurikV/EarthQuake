@@ -47,6 +47,12 @@ using UnityEngine;
              }
              
              _aspect.FallEnd.Del(ent);
+
+             if (_global.Map.Grid[pos.MapPos.x, pos.MapPos.y+1].Type == CellType.Character)
+             {
+                 Debug.Log("---- H I T ----");
+             }
+             
          }
      }
  }

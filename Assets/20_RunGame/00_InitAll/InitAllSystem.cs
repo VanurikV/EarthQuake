@@ -28,7 +28,7 @@ sealed partial class InitAllSystem : IProtoInitSystem
         CreateRock();
         CreateDiamond();
         CreateGrass();
-        
+        CreateCharacter();
 
     }
 }

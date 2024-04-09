@@ -20,6 +20,9 @@ public class GlobalData
     public GameObject GroundContainer;
     public GameObject CharacterContainer;
 
+    public GameObject Character;
+    public CharacterScript ScharacterScript;
+
 
     
 }

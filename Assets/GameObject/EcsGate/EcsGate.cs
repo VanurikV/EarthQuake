@@ -17,7 +17,7 @@ public class EcsGate : MonoBehaviour
 
     public void CharacterAppear()
     {
-        //_global.ScharacterScript.gameObject.SetActive(true);
+        _global.ScharacterScript.gameObject.SetActive(true);
     }
 
     public void ClimbEnd()

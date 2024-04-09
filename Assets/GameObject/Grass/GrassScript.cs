@@ -11,10 +11,12 @@ public class GrassScript : MonoBehaviour
     public Sprite[] StoneSprites;
 
     public Animator _animator;
+    private AudioSource _grassFadeFx;
     
     void Start()
     {
         _animator = GetComponent("Animator")as Animator ;
+        _grassFadeFx = GetComponent<AudioSource>();
         
         _spriteRenderer = GetComponent<SpriteRenderer>();
         //_spriteRenderer.sprite = StoneSprites[Random.Range(0,StoneSprites.Length)];
@@ -29,6 +31,7 @@ public class GrassScript : MonoBehaviour
     public void Fade()
     {
         _animator.enabled = true;
+        _grassFadeFx.Play();
     }
     
 

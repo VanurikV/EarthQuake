@@ -64,7 +64,7 @@ public class MapLevel
     public void MapMove(Vector2Int src, Vector2Int dst)
     {
         
-        Debug.Log("MapMove"+src+"  "+dst);
+        //Debug.Log("MapMove"+src+"  "+dst);
         
         Grid[dst.x, dst.y].GameObjectId = Grid[src.x, src.y].GameObjectId;
         Grid[dst.x, dst.y].Type = Grid[src.x, src.y].Type;
